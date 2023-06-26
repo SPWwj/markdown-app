@@ -10,9 +10,18 @@
     "@types/node": "^16.18.36",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
+    "awesome-qr": "^2.1.5-rc.0",
+    "browserify-zlib": "^0.2.0",
+    "cheerio": "^1.0.0-rc.12",
+    "markdown-it": "^13.0.1",
+    "markdown-it-attrs": "^4.1.6",
+    "qr-image": "^3.2.0",
+    "qrcode": "^1.5.3",
+    "qrcode-svg": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "stream-browserify": "^3.0.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -39,5 +48,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.31",
+    "@types/markdown-it": "^12.2.3",
+    "@types/qr-image": "^3.2.5",
+    "@types/qrcode-svg": "^1.1.1"
   }
 }
